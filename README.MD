@@ -28,6 +28,16 @@ npm start
 ```
 
 ## **Rodando os testes automatizados**
-🔸 ```bash npx cypress open ``` para execução dos testes no modo iterativo
-🔸 "npx cypress run" para execução dos testes no modo headless
-🔸 "npx cypress run --reporter mochawesome" para execução dos testes com geração do report na pasta "result"
+Para execução dos testes no modo iterativo:
+```bash 
+npx cypress open 
+``` 
+Para execução dos testes no modo headless
+```bash 
+npx cypress run
+``` 
+
+Para execução dos testes com geração do report na pasta "result":
+```bash 
+npx cypress run --reporter mochawesome
+``` 
